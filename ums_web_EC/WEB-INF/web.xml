@@ -9,15 +9,6 @@
 	</servlet-mapping>
 
 	<servlet>
-		<servlet-name>menuMapping</servlet-name>
-		<servlet-class>servlet.MenuServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>menuMapping</servlet-name>
-		<url-pattern>/menu</url-pattern>
-	</servlet-mapping>
-
-	<servlet>
 		<servlet-name>listMapping</servlet-name>
 		<servlet-class>servlet.ListServlet</servlet-class>
 	</servlet>
@@ -125,7 +116,7 @@
 		<url-pattern>/newAccount</url-pattern>
 	</servlet-mapping>
 
-	<servlet>
+		<servlet>
 		<servlet-name>insertUserMapping</servlet-name>
 		<servlet-class>servlet.InsertUserServlet</servlet-class>
 	</servlet>
