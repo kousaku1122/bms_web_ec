@@ -1,0 +1,72 @@
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+table tr {
+    text-align: center;
+    vertical-align: middle;
+}
+
+textarea {
+    height: 100px;
+}
+
+/* table */
+.tableInfo {
+    height: 60%;
+}
+
+.table-img {
+    width: 15%;
+}
+
+.table-img .card-body {
+    padding: 5px;
+}
+
+/* header */
+.admin-nav {
+    position: relative;
+}
+
+.position-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+/* form */
+.form-container {
+    margin: 0 15%;
+    padding: 30px 4% 10px;
+}
+
+.form-button button {
+    width: 50%;
+    margin: 10px;
+}
+
+/* insert.html */
+.insert-button button {
+    width: 30%;
+    margin: 10px;
+}
+
+/* detail.html */
+.item-container {
+    padding-top: 50px;
+}
+
+/* showCartInfo */
+.cartInfo {
+    height: 50%;
+}
+
+/* buyConfirm.html */
+.buyInfo {
+    height: 45%;
+}
